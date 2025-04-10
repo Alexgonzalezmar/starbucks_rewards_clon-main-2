@@ -91,18 +91,36 @@ main .main_izq{
     width: 40%;
     height: 100vh;
     background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
-}
-.main_izq img{
-    margin-top: 150px;
-    height: 200px;
     justify-content: center;
     align-items: center;
-
-}
-
-.button_izq{
     
 }
+.main_izq img{
+    height: 200px;
+    
+
+}
+
+.main_izq button{
+    font-size: 13px;
+    font-weight: lighter;
+    color: white;
+    display: flex;
+    margin: 10px;
+    display: inline;
+    height: 35px;
+    width: 113px;
+    border-radius: 17px;
+    padding: 2px 8px;
+    border: 1.5px solid white;
+    font-weight: bold;
+    margin: 25px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+
 
 .main_izq p{
     color: white;
@@ -119,8 +137,29 @@ main .main_der{
     
 }
 
+.main_der div img{
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    }
+
+    .main_der div p{
+        display: flex;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #212529;
+        font-weight:lighter;
+        width: 150px;
+        padding: 6px;
+    }
+
 .contenedor_beneficios{
     display: flex;
+    
+    
+    margin: 1%;
+    letter-spacing: 1.5px;
+    font-weight: bold;
 }
 
 .main_der p{
